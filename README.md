@@ -15,3 +15,8 @@ Usage
 - Get hyptnotized by the dancing bunny
 - Press keys anywhere in your OS and watch the server getting logs of which
   keys you pressed
+
+
+Task List:
+1. allow remote connection, before deployment
+2. Create as Deamon so it will continue to run in the background
